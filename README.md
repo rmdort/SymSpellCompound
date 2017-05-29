@@ -1,4 +1,11 @@
-# SymSpellCompound
+# SymSpellCompound (Python port)
+
+````
+from SymSpellCompound import SymSpell
+
+spellchecker = SymSpell()
+spellchecker.Correct('lawz', '')
+````
 
 
 __Compound aware automatic spelling correction__
